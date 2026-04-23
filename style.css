@@ -1,0 +1,73 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border-bottom: 5px solid lightsalmon; /* El primer numero es el grosor que va a tener el borde, y el solid El borde se dibuja como una línea sólida, sin espacios ni puntos.*/
+    border-radius: 7px;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 30px;
+    position: sticky;
+    top: 0%;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase; /* Para que todo el texto se ponga en mayusculas */
+    margin: 0%;
+    font-size: 35px; /* font-size sirve para cambiar el tamaño del texto. */
+}
+
+h1 span{
+    display: block; /* display: block hace que un elemento se comporte como un bloque completo, es decir: ocupa toda la línea disponible Y fuerza a que el siguiente elemento baje a la siguiente línea */
+    line-height: 1; /* line-height controla el espacio vertical entre líneas de texto. Básicamente: qué tan separadas están las líneas entre sí. */
+    color: lightsalmon;
+}
+
+.burger{
+    font-family: cursive;
+    margin-top: -10px; /* En vez de separarlo, lo estoy acercando en el top haciendo que se pegue mas arriba */
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none; /* Sirve para que cambiar el estilo de los navegadores la lista y en mi caso quitar los puntos que salen por defecto */
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+section h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase; /* Para que todo el texto se ponga en mayusculas */
+    font-size: 70px;
+    position: absolute;
+    top: 60%;
+    left: 16%;
+    color: white;
+    display: block;
+    text-align: center;
+    text-shadow: 2px 2px 5px black; /* text-shadow agrega una sombra al texto, como si estuviera “levantado” del fondo. Sirve principalmente para que el texto se vea mejor y tenga más contraste. cada numero hace: 2px sombra hacia la derecha,  2px	sombra hacia abajo, 5px qué tan borrosa es, black color de la sombra*/
+}
+
+.aprovecha{
+    font-size: 40px;
+    background-color: coral;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
